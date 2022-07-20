@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.grid-container {
+  display: grid;
+  grid-template-columns:auto auto auto;
+  background-color: black;
+  gap:30px;
+  padding:40px;
+  color:white;
+}
+.grid-container > div {
+
+  text-align: left;
+  padding: 30px 0;
+ 
+}
+.right{
+    padding-right:20px;
+}
+.bottom {
+  grid-column: 1 / span 3;
+}
+
+.paddingRight{
+    padding-right: 10px;
+}
+#ref{
+    margin-right: 300px;
+}
+#ref2{
+    margin-left: 500px;
+}
+#email{
+    background-color: rgb(34, 29, 29);
+    padding: 5px;
+    border-radius: 20px;
+    
+}
+#send{
+    background-color: rgb(184, 122, 8);
+    padding: 5px;
+    border-radius: 25px;
+   
+}
+
+ 
+  input{
+      background-color: #2a2b30;
+      border:1px solid #282828;
+      border-radius: 25px;
+      padding: 8px 20px;
+      float: left;
+  }
+  button{
+      background-color: #ee8434;
+      font-size: 14px;
+      font-weight: 600;
+      color: #fff;
+      border: 1px solid #ee8434;
+      border-radius: 20px;
+      padding: 6px 20px;
+      float: left;
+      position: relative;
+      right: 34px;
+  }
+  a{
+      color: #fff;
+      text-decoration: none;
+      font-size: 16px;
+      font-weight: 500;
+      padding: 3px;
+  }
+
+</style>
+</head>
+<body>
+    <div class="grid-container">
+  
+    <div class="left">
+        <h2>About us</h2>
+        <p style="text-align:left ;">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos repellendus vel natus iste illo quae. Sequi aut aliquid, dolore sint nulla laboriosam, tempore porro, molestias nostrum iusto modi saepe voluptate!
+        </p>
+        <p>
+        <img src="message.jpg" height="10px" weidth="10px"/> +12013912329
+        <br/> <br/>
+        <img src="phone.png" height="10px" weidth="10px"/> info@gmail.com
+        </p>
+        <p>
+       <p>
+            <form action="" method="post">
+                <input type="text" placeholder="Enetr your e-mail" />
+                <button>Send</button>
+            </form>
+        </p>
+        
+    </div>
+    <div class="middle">
+        <h2>Latest Tweet</h2>
+        <p style="text-align:left ;">
+            <label style="padding-right:10px"><img src="twit.jpg" height="10" width="10"/></label>
+            <label>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos repellendus vel natus iste illo quae. Sequi aut aliquid, dolore sint nulla labori</label>
+        </p>
+        <p style="text-align:left ;">
+            <label style="padding-right:10px"><img src="twit.jpg" height="10" width="10"/></label>
+            <label>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos repellendus vel natus iste illo quae. Sequi aut aliquid, dolore sint nulla labori</label>
+        </p>
+        <p style="text-align:left ;">
+            <label style="padding-right:10px"><img src="twit.jpg" height="10" width="10"/></label>
+            <label>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos repellendus vel natus iste illo quae. Sequi aut aliquid, dolore sint nulla labori</label>
+        </p>
+    </div>  
+    <div>
+        <h2>Instagram</h2>
+        <img src="profile.jpg" width="70px" height="50px"/>
+        <img src="profile.jpg" width="70px" height="50px"/><br/>
+        <img src="profile.jpg" width="70px" height="50px"/>
+        <img src="profile.jpg" width="70px" height="50px"/>
+    </div>
+    
+    <div class="bottom">
+        
+        <hr/>
+        <label><a href="#">Home</a></lable>
+        <label><a href="#">About</a> </lable>
+        <label><a href="#">Our works</a> </lable>
+        <label><a href="#">Service</a> </lable>
+        <label><a href="#" >Blog</a> </lable>
+        <label><a href="#" id="ref">Contact</a> </lable>
+        <label><a href="#" id="ref2">Colorlib</a> </lable>     
+    </div>
+    
+    
+        
+</div>
+
+</body>
+</html>
